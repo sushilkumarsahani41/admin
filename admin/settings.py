@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pbuf7mgd0!eq@j4e*l*lon1&i*o-pcc6q9zxgs2_10k*b=kl7g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['api.ckgoat.greatshark.com']
+ALLOWED_HOSTS = ['api.ckgoat.greatshark.com',"127.0.0.1"]
 
 
 # Application definition
@@ -136,3 +136,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# settings.py
+DATA_UPLOAD_MAX_MEMORY_SIZE = None 
